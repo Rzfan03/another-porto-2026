@@ -71,7 +71,7 @@
                      </div>
                           <div class="mt-3">
                               <p class="text-sm text-zinc-600">
-                                  Hi, I'm Rizqy Fajrul Syabani, a 16-year-old Software Engineer from Indonesia with a deep passion for building scalable systems and solving complex technical challenges.
+                                  Hi, I'm Rizqy Fajrul Syabani, a 17-year-old Software Engineer from Indonesia with a deep passion for building scalable systems and solving complex technical challenges.
                                   <br/>
                                   <br/>
                                   Ever since I started diving into the world of programming, I have been fascinated by the logic behind robust software and how code can be used to create efficient solutions. I am currently studying at SMKN 1 Sumbawa Besar, where I am sharpening my skills in algorithm design, system architecture, and full-stack development.
