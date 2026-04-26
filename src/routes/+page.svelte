@@ -8,7 +8,7 @@
     import LogoFigma from "carbon-icons-svelte/lib/LogoFigma.svelte";
     import LogoReact from "carbon-icons-svelte/lib/LogoReact.svelte";
     import Icon from "@iconify/svelte";
-    import bg from '../lib/assets/bg.gif'
+    import bg from '../lib/assets/bg.mp4'
     import sabalong from '../lib/assets/sabalong.png'
     import samalang from '../lib/assets/samalang.png'
     import around from '../lib/assets/aroundworld.png'
@@ -49,7 +49,16 @@
                         </div>
                     </div>
                 {:then data}
-                <img class="object-cover h-36 rounded-md" src={bg} alt="bg"/>
+                <video 
+                    class="object-cover h-36 rounded-md w-full" 
+                    src={bg} 
+                    autoplay 
+                    loop 
+                    muted 
+                    playsinline
+                >
+                    <p>Your browser does not support the video tag.</p>
+                </video>
                   <div class="w-full p-2 flex gap-4 flex-col relative -top-12">
                      <div class="flex items-center gap-5 max-md:gap-2">
                          <img class="rounded-full w-27 border-6 border-white" src={data.avatar_url || "https://avatars.githubusercontent.com/u/177092123?v=4"} alt="avatar"/>
